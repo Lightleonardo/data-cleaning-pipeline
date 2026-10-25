@@ -1,0 +1,201 @@
+order_id,customer_name,email,order_date,product,quantity,unit_price,notes,status,quantity_invalid,city,state,zip
+1,Efe Okafor,ada@example.com,2026-01-24,Laptop,2.0,49.99,Customer requested gift wrap.,Cancelled,False,Lagos,FCT,900009
+2,Chinwe Okonkwo,ada@example.com,2026-01-03,Laptop,0.0,,Please deliver after 5pm.,Cancelled,True,Lagos,FCT,900009
+3,Efe Okafor,chinwe@example.com,2026-02-15,Laptop,1.0,49.99,Urgent delivery needed,Delivered,False,Ibadan,FCT,900006
+4,Ada Obi,bello.musa@example,2026-01-03,Laptop,3.0,89.5,Customer requested gift wrap.,Cancelled,False,Enugu,FCT,900005
+5,Chinwe Okonkwo,ada@example.com,2026-04-03,Laptop,,,Customer requested gift wrap.,Delivered,True,Kano,FCT,900004
+6,Efe Okafor,,2026-03-03,Mouse,1.0,,Urgent delivery needed,Delivered,False,Kano,FCT,900008
+7,Bello Musa,bello.musa@example,2026-02-22,Monitor,,199.99,"Called twice, no response. Follow up.",Cancelled,True,Enugu,FCT,900003
+8,Ada Obi,,2026-04-13,Monitor,,,Customer requested gift wrap.,Delivered,True,Abuja,FCT,900006
+9,Ada Obi,bello.musa@example,2026-04-09,Laptop,0.0,89.5,,Cancelled,True,Abuja,FCT,900008
+10,Chinwe Okonkwo,,2026-03-05,Monitor,0.0,,"Called twice, no response. Follow up.",Pending,True,Kano,FCT,900007
+11,Bello Musa,,2026-02-17,Laptop,1.0,199.99,,Cancelled,False,Abuja,FCT,900003
+12,Ada Obi,chinwe@example.com,2026-04-20,Keyboard,3.0,,"Called twice, no response. Follow up.",Delivered,False,Lagos,FCT,900002
+13,Efe Okafor,bello.musa@example,2026-01-10,Laptop,-1.0,199.99,Please deliver after 5pm.,Cancelled,True,Kano,FCT,900009
+14,Ada Obi,bello.musa@example,2026-06-17,Laptop,2.0,89.5,"Called twice, no response. Follow up.",Delivered,False,Abuja,FCT,900009
+15,David Adebayo,bello.musa@example,2026-04-01,Laptop,3.0,49.99,"Called twice, no response. Follow up.",Delivered,False,Lagos,FCT,900004
+16,Ada Obi,chinwe@example.com,2026-01-25,Mouse,2.0,49.99,Please deliver after 5pm.,Delivered,False,Ibadan,FCT,900009
+17,David Adebayo,chinwe@example.com,2026-02-18,Monitor,2.0,89.5,,Cancelled,False,Ibadan,FCT,900006
+18,Chinwe Okonkwo,ada@example.com,2026-02-08,Laptop,1.0,,"Called twice, no response. Follow up.",Delivered,False,Enugu,FCT,900004
+19,Ada Obi,ada@example.com,2026-06-21,Laptop,1.0,199.99,"Called twice, no response. Follow up.",Delivered,False,Kano,FCT,900002
+20,Bello Musa,chinwe@example.com,2026-02-18,Monitor,0.0,,,Pending,True,Ibadan,FCT,900004
+21,Ada Obi,ada@example.com,2026-01-22,Laptop,-1.0,,Customer requested gift wrap.,Delivered,True,Ibadan,FCT,900001
+22,Chinwe Okonkwo,bello.musa@example,2026-01-08,Laptop,0.0,,Please deliver after 5pm.,Delivered,True,Abuja,FCT,900007
+23,Chinwe Okonkwo,,2026-01-15,Laptop,1.0,,Please deliver after 5pm.,Delivered,False,Lagos,FCT,900002
+24,Chinwe Okonkwo,chinwe@example.com,2026-04-07,Laptop,2.0,,Urgent delivery needed,Pending,False,Lagos,FCT,900007
+25,Bello Musa,chinwe@example.com,2026-06-24,Monitor,,,Urgent delivery needed,Delivered,True,Abuja,FCT,900004
+26,Ada Obi,ada@example.com,2026-06-11,Laptop,0.0,,Please deliver after 5pm.,Delivered,True,Enugu,FCT,900009
+27,David Adebayo,ada@example.com,2026-02-03,Laptop,,49.99,"Called twice, no response. Follow up.",Delivered,True,Ibadan,FCT,900002
+28,David Adebayo,ada@example.com,2026-05-03,Monitor,0.0,,Urgent delivery needed,Delivered,True,Enugu,FCT,900006
+29,Efe Okafor,bello.musa@example,2026-02-09,Laptop,,89.5,Customer requested gift wrap.,Delivered,True,Ibadan,FCT,900006
+30,Chinwe Okonkwo,ada@example.com,2026-01-18,Keyboard,3.0,49.99,Please deliver after 5pm.,Delivered,False,Kano,FCT,900002
+31,Bello Musa,,2026-04-27,Monitor,3.0,,"Called twice, no response. Follow up.",Delivered,False,Enugu,FCT,900001
+32,Efe Okafor,ada@example.com,2026-02-09,Laptop,,,Urgent delivery needed,Cancelled,True,Abuja,FCT,900005
+33,Ada Obi,bello.musa@example,2026-02-22,Mouse,3.0,,Customer requested gift wrap.,Delivered,False,Ibadan,FCT,900005
+34,Efe Okafor,chinwe@example.com,2026-03-02,Laptop,2.0,89.5,"Called twice, no response. Follow up.",Cancelled,False,Abuja,FCT,900008
+35,Chinwe Okonkwo,ada@example.com,2026-01-03,Laptop,0.0,199.99,Please deliver after 5pm.,Pending,True,Kano,FCT,900009
+36,Ada Obi,ada@example.com,2026-03-12,Laptop,2.0,49.99,"Called twice, no response. Follow up.",Pending,False,Lagos,FCT,900006
+37,David Adebayo,,2026-02-28,Mouse,2.0,,Urgent delivery needed,Pending,False,Lagos,FCT,900003
+38,Efe Okafor,,2026-03-06,Laptop,-1.0,199.99,Please deliver after 5pm.,Pending,True,Ibadan,FCT,900004
+39,Bello Musa,bello.musa@example,2026-02-08,Monitor,2.0,,Customer requested gift wrap.,Delivered,False,Kano,FCT,900005
+40,Bello Musa,chinwe@example.com,2026-06-27,Laptop,1.0,199.99,"Called twice, no response. Follow up.",Delivered,False,Kano,FCT,900003
+41,Ada Obi,ada@example.com,2026-05-14,Monitor,3.0,,Customer requested gift wrap.,Pending,False,Enugu,FCT,900009
+42,David Adebayo,,2026-03-02,Headphones,1.0,,Urgent delivery needed,Pending,False,Enugu,FCT,900004
+43,Ada Obi,bello.musa@example,2026-05-11,Mouse,1.0,89.5,,Delivered,False,Enugu,FCT,900005
+44,Chinwe Okonkwo,bello.musa@example,2026-05-05,Headphones,,,,Cancelled,True,Abuja,FCT,900005
+45,Ada Obi,bello.musa@example,2026-03-07,Mouse,0.0,,,Pending,True,Kano,FCT,900008
+46,Efe Okafor,,2026-05-16,Laptop,,199.99,"Called twice, no response. Follow up.",Delivered,True,Kano,FCT,900009
+47,Ada Obi,,2026-06-10,Mouse,2.0,49.99,Please deliver after 5pm.,Pending,False,Lagos,FCT,900001
+48,David Adebayo,ada@example.com,2026-04-14,Keyboard,2.0,,Please deliver after 5pm.,Delivered,False,Ibadan,FCT,900007
+49,Efe Okafor,ada@example.com,2026-01-25,Laptop,2.0,,"Called twice, no response. Follow up.",Delivered,False,Ibadan,FCT,900001
+50,Ada Obi,chinwe@example.com,2026-02-26,Monitor,0.0,,,Cancelled,True,Enugu,FCT,900006
+51,Efe Okafor,chinwe@example.com,2026-05-15,Monitor,-1.0,,Urgent delivery needed,Cancelled,True,Kano,FCT,900004
+52,Chinwe Okonkwo,,2026-03-15,Monitor,3.0,49.99,Urgent delivery needed,Cancelled,False,Kano,FCT,900006
+53,Ada Obi,,2026-02-08,Monitor,2.0,49.99,,Delivered,False,Lagos,FCT,900007
+54,David Adebayo,chinwe@example.com,2026-04-02,Mouse,-1.0,,"Called twice, no response. Follow up.",Pending,True,Enugu,FCT,900001
+55,Chinwe Okonkwo,ada@example.com,2026-03-10,Mouse,-1.0,,,Delivered,True,Enugu,FCT,900004
+56,Bello Musa,chinwe@example.com,2026-04-01,Laptop,,,Please deliver after 5pm.,Cancelled,True,Abuja,FCT,900008
+57,David Adebayo,ada@example.com,2026-04-19,Monitor,1.0,199.99,,Delivered,False,Ibadan,FCT,900003
+58,Ada Obi,bello.musa@example,2026-04-11,Headphones,3.0,89.5,,Delivered,False,Ibadan,FCT,900005
+59,Ada Obi,chinwe@example.com,2026-01-24,Laptop,3.0,49.99,Customer requested gift wrap.,Delivered,False,Lagos,FCT,900001
+60,Ada Obi,ada@example.com,2026-05-05,Laptop,-1.0,199.99,,Cancelled,True,Enugu,FCT,900004
+61,Bello Musa,bello.musa@example,2026-02-20,Monitor,,199.99,Customer requested gift wrap.,Cancelled,True,Abuja,FCT,900005
+62,Ada Obi,bello.musa@example,2026-05-22,Headphones,,49.99,Customer requested gift wrap.,Cancelled,True,Lagos,FCT,900004
+63,Bello Musa,ada@example.com,2026-05-26,Laptop,0.0,,"Called twice, no response. Follow up.",Cancelled,True,Kano,FCT,900002
+64,Bello Musa,ada@example.com,2026-04-27,Laptop,-1.0,89.5,,Delivered,True,Ibadan,FCT,900003
+65,Efe Okafor,bello.musa@example,2026-05-26,Mouse,-1.0,,Urgent delivery needed,Delivered,True,Ibadan,FCT,900005
+66,Ada Obi,bello.musa@example,2026-04-08,Keyboard,0.0,,,Delivered,True,Kano,FCT,900001
+67,Ada Obi,chinwe@example.com,2026-02-12,Laptop,3.0,,Customer requested gift wrap.,Cancelled,False,Kano,FCT,900009
+68,Ada Obi,ada@example.com,2026-02-24,Headphones,0.0,49.99,,Delivered,True,Ibadan,FCT,900008
+69,Ada Obi,bello.musa@example,2026-02-13,Laptop,3.0,,"Called twice, no response. Follow up.",Cancelled,False,Kano,FCT,900008
+70,Bello Musa,chinwe@example.com,2026-06-18,Laptop,,,Urgent delivery needed,Delivered,True,Kano,FCT,900005
+71,Ada Obi,,2026-03-04,Keyboard,,49.99,,Delivered,True,Abuja,FCT,900004
+72,Efe Okafor,bello.musa@example,2026-01-27,Laptop,2.0,89.5,Customer requested gift wrap.,Cancelled,False,Abuja,FCT,900005
+73,David Adebayo,,2026-03-02,Keyboard,3.0,49.99,Customer requested gift wrap.,Cancelled,False,Ibadan,FCT,900002
+74,Bello Musa,chinwe@example.com,2026-04-15,Laptop,1.0,89.5,Customer requested gift wrap.,Pending,False,Ibadan,FCT,900002
+75,Chinwe Okonkwo,ada@example.com,2026-05-21,Laptop,2.0,49.99,Customer requested gift wrap.,Delivered,False,Enugu,FCT,900005
+76,Ada Obi,chinwe@example.com,2026-05-20,Laptop,0.0,,Urgent delivery needed,Cancelled,True,Ibadan,FCT,900008
+77,Chinwe Okonkwo,bello.musa@example,2026-05-20,Keyboard,,199.99,Urgent delivery needed,Cancelled,True,Abuja,FCT,900004
+78,Ada Obi,,2026-02-06,Laptop,2.0,199.99,"Called twice, no response. Follow up.",Pending,False,Ibadan,FCT,900008
+79,Bello Musa,ada@example.com,2026-02-10,Laptop,,,Urgent delivery needed,Cancelled,True,Lagos,FCT,900004
+80,David Adebayo,,2026-04-04,Laptop,,49.99,Customer requested gift wrap.,Delivered,True,Kano,FCT,900003
+81,Ada Obi,bello.musa@example,2026-05-24,Laptop,-1.0,199.99,,Delivered,True,Ibadan,FCT,900005
+82,David Adebayo,chinwe@example.com,2026-04-03,Laptop,-1.0,89.5,Customer requested gift wrap.,Delivered,True,Enugu,FCT,900005
+83,Ada Obi,ada@example.com,2026-06-27,Keyboard,1.0,49.99,,Delivered,False,Ibadan,FCT,900009
+84,Ada Obi,chinwe@example.com,2026-06-27,Laptop,-1.0,89.5,Urgent delivery needed,Cancelled,True,Ibadan,FCT,900006
+85,Ada Obi,,2026-03-14,Headphones,3.0,,,Delivered,False,Enugu,FCT,900001
+86,Bello Musa,bello.musa@example,2026-03-04,Mouse,0.0,199.99,,Delivered,True,Enugu,FCT,900008
+87,Ada Obi,bello.musa@example,2026-05-25,Monitor,-1.0,199.99,"Called twice, no response. Follow up.",Delivered,True,Abuja,FCT,900005
+88,Bello Musa,chinwe@example.com,2026-06-16,Laptop,,,Urgent delivery needed,Cancelled,True,Abuja,FCT,900003
+89,Ada Obi,chinwe@example.com,2026-01-08,Headphones,1.0,49.99,"Called twice, no response. Follow up.",Cancelled,False,Ibadan,FCT,900005
+90,Bello Musa,chinwe@example.com,2026-04-16,Headphones,0.0,49.99,"Called twice, no response. Follow up.",Cancelled,True,Ibadan,FCT,900004
+91,Efe Okafor,,2026-01-09,Laptop,0.0,89.5,Urgent delivery needed,Cancelled,True,Lagos,FCT,900005
+92,David Adebayo,chinwe@example.com,2026-02-15,Headphones,3.0,89.5,,Pending,False,Enugu,FCT,900009
+93,Bello Musa,,2026-06-08,Headphones,2.0,,,Cancelled,False,Lagos,FCT,900006
+94,Chinwe Okonkwo,chinwe@example.com,2026-06-26,Laptop,-1.0,199.99,"Called twice, no response. Follow up.",Delivered,True,Abuja,FCT,900009
+95,Ada Obi,chinwe@example.com,2026-01-17,Laptop,,49.99,Customer requested gift wrap.,Pending,True,Ibadan,FCT,900003
+96,Bello Musa,bello.musa@example,2026-05-23,Monitor,1.0,89.5,Urgent delivery needed,Cancelled,False,Enugu,FCT,900007
+97,Efe Okafor,chinwe@example.com,2026-05-02,Laptop,2.0,89.5,,Delivered,False,Abuja,FCT,900002
+98,Efe Okafor,ada@example.com,2026-04-06,Laptop,1.0,199.99,Urgent delivery needed,Delivered,False,Kano,FCT,900001
+99,Bello Musa,chinwe@example.com,2026-02-08,Headphones,0.0,49.99,Customer requested gift wrap.,Cancelled,True,Abuja,FCT,900003
+100,Chinwe Okonkwo,,2026-04-19,Laptop,-1.0,89.5,Customer requested gift wrap.,Pending,True,Ibadan,FCT,900005
+101,Bello Musa,,2026-01-15,Keyboard,3.0,,Urgent delivery needed,Delivered,False,Kano,FCT,900008
+102,Chinwe Okonkwo,chinwe@example.com,2026-01-08,Keyboard,3.0,,Customer requested gift wrap.,Cancelled,False,Kano,FCT,900005
+103,Chinwe Okonkwo,bello.musa@example,2026-01-19,Mouse,,199.99,Urgent delivery needed,Delivered,True,Enugu,FCT,900008
+104,David Adebayo,bello.musa@example,2026-02-21,Keyboard,3.0,49.99,Urgent delivery needed,Pending,False,Lagos,FCT,900001
+105,Ada Obi,bello.musa@example,2026-06-05,Laptop,3.0,,Please deliver after 5pm.,Cancelled,False,Abuja,FCT,900004
+106,Bello Musa,bello.musa@example,2026-02-09,Mouse,3.0,89.5,Customer requested gift wrap.,Delivered,False,Lagos,FCT,900008
+107,Ada Obi,chinwe@example.com,2026-05-12,Mouse,-1.0,199.99,Customer requested gift wrap.,Pending,True,Kano,FCT,900009
+108,Bello Musa,bello.musa@example,2026-05-13,Laptop,1.0,49.99,"Called twice, no response. Follow up.",Cancelled,False,Ibadan,FCT,900001
+109,Bello Musa,,2026-06-03,Mouse,-1.0,89.5,Please deliver after 5pm.,Delivered,True,Ibadan,FCT,900002
+110,Ada Obi,bello.musa@example,2026-04-04,Laptop,0.0,49.99,Urgent delivery needed,Cancelled,True,Ibadan,FCT,900008
+111,Efe Okafor,chinwe@example.com,2026-05-24,Laptop,-1.0,199.99,Urgent delivery needed,Delivered,True,Ibadan,FCT,900007
+112,Efe Okafor,bello.musa@example,2026-02-15,Laptop,3.0,199.99,Urgent delivery needed,Delivered,False,Kano,FCT,900009
+113,Chinwe Okonkwo,bello.musa@example,2026-02-04,Laptop,,49.99,Customer requested gift wrap.,Delivered,True,Enugu,FCT,900001
+114,Ada Obi,,2026-05-07,Mouse,0.0,49.99,Please deliver after 5pm.,Delivered,True,Enugu,FCT,900004
+115,Ada Obi,ada@example.com,2026-03-28,Laptop,0.0,89.5,Customer requested gift wrap.,Delivered,True,Abuja,FCT,900002
+116,Ada Obi,bello.musa@example,2026-02-19,Laptop,2.0,89.5,,Cancelled,False,Lagos,FCT,900003
+117,Ada Obi,ada@example.com,2026-04-15,Keyboard,0.0,199.99,Please deliver after 5pm.,Cancelled,True,Ibadan,FCT,900009
+118,Ada Obi,bello.musa@example,2026-04-21,Laptop,-1.0,,,Cancelled,True,Ibadan,FCT,900002
+119,Chinwe Okonkwo,ada@example.com,2026-01-11,Laptop,1.0,49.99,Urgent delivery needed,Pending,False,Kano,FCT,900009
+120,David Adebayo,bello.musa@example,2026-04-17,Headphones,1.0,199.99,,Pending,False,Enugu,FCT,900004
+121,Ada Obi,chinwe@example.com,2026-03-27,Headphones,-1.0,199.99,Urgent delivery needed,Cancelled,True,Kano,FCT,900007
+122,Bello Musa,bello.musa@example,2026-02-22,Laptop,1.0,199.99,Customer requested gift wrap.,Cancelled,False,Lagos,FCT,900007
+123,Efe Okafor,bello.musa@example,2026-02-18,Keyboard,0.0,,,Delivered,True,Kano,FCT,900002
+124,Efe Okafor,chinwe@example.com,2026-06-02,Keyboard,3.0,89.5,Please deliver after 5pm.,Delivered,False,Lagos,FCT,900009
+125,Efe Okafor,chinwe@example.com,2026-02-28,Laptop,0.0,89.5,"Called twice, no response. Follow up.",Delivered,True,Lagos,FCT,900005
+126,Chinwe Okonkwo,ada@example.com,2026-05-22,Laptop,1.0,49.99,Urgent delivery needed,Delivered,False,Kano,FCT,900005
+127,Ada Obi,,2026-02-19,Headphones,1.0,49.99,"Called twice, no response. Follow up.",Delivered,False,Lagos,FCT,900002
+128,Chinwe Okonkwo,chinwe@example.com,2026-04-11,Laptop,3.0,89.5,Customer requested gift wrap.,Delivered,False,Enugu,FCT,900002
+129,Ada Obi,ada@example.com,2026-06-03,Headphones,,,,Delivered,True,Ibadan,FCT,900008
+130,Ada Obi,ada@example.com,2026-03-14,Laptop,,,Urgent delivery needed,Delivered,True,Ibadan,FCT,900009
+131,Ada Obi,chinwe@example.com,2026-05-02,Laptop,3.0,49.99,Urgent delivery needed,Delivered,False,Abuja,FCT,900005
+132,Ada Obi,ada@example.com,2026-04-24,Laptop,2.0,,"Called twice, no response. Follow up.",Cancelled,False,Enugu,FCT,900004
+133,Efe Okafor,bello.musa@example,2026-01-13,Laptop,-1.0,199.99,Urgent delivery needed,Cancelled,True,Ibadan,FCT,900002
+134,Chinwe Okonkwo,chinwe@example.com,2026-06-21,Laptop,1.0,,Please deliver after 5pm.,Cancelled,False,Lagos,FCT,900006
+135,Chinwe Okonkwo,bello.musa@example,2026-01-14,Laptop,-1.0,,Customer requested gift wrap.,Pending,True,Ibadan,FCT,900009
+136,Bello Musa,bello.musa@example,2026-02-11,Laptop,0.0,199.99,Please deliver after 5pm.,Delivered,True,Enugu,FCT,900009
+137,Bello Musa,,2026-02-04,Laptop,2.0,49.99,Customer requested gift wrap.,Delivered,False,Enugu,FCT,900003
+138,Efe Okafor,chinwe@example.com,2026-04-25,Mouse,0.0,,Urgent delivery needed,Delivered,True,Enugu,FCT,900006
+139,Chinwe Okonkwo,ada@example.com,2026-04-15,Laptop,3.0,,"Called twice, no response. Follow up.",Delivered,False,Lagos,FCT,900006
+140,Bello Musa,chinwe@example.com,2026-04-02,Laptop,3.0,199.99,,Pending,False,Lagos,FCT,900009
+141,David Adebayo,ada@example.com,2026-04-26,Monitor,2.0,89.5,"Called twice, no response. Follow up.",Delivered,False,Enugu,FCT,900008
+142,Ada Obi,chinwe@example.com,2026-01-26,Monitor,1.0,,Please deliver after 5pm.,Cancelled,False,Abuja,FCT,900001
+143,Chinwe Okonkwo,chinwe@example.com,2026-05-17,Laptop,3.0,89.5,,Delivered,False,Kano,FCT,900007
+144,Efe Okafor,ada@example.com,2026-06-21,Laptop,3.0,199.99,Urgent delivery needed,Delivered,False,Enugu,FCT,900007
+145,Efe Okafor,,2026-03-03,Monitor,2.0,89.5,Please deliver after 5pm.,Cancelled,False,Kano,FCT,900007
+146,Efe Okafor,ada@example.com,2026-03-18,Monitor,3.0,49.99,,Cancelled,False,Enugu,FCT,900002
+147,Bello Musa,ada@example.com,2026-03-10,Laptop,3.0,,Please deliver after 5pm.,Delivered,False,Abuja,FCT,900004
+148,Ada Obi,bello.musa@example,2026-01-17,Mouse,,,"Called twice, no response. Follow up.",Delivered,True,Lagos,FCT,900006
+149,David Adebayo,chinwe@example.com,2026-02-06,Mouse,,,Customer requested gift wrap.,Pending,True,Abuja,FCT,900008
+150,Bello Musa,,2026-04-20,Mouse,,,Please deliver after 5pm.,Delivered,True,Abuja,FCT,900009
+151,Chinwe Okonkwo,,2026-03-22,Headphones,-1.0,89.5,"Called twice, no response. Follow up.",Pending,True,Ibadan,FCT,900009
+152,Ada Obi,,2026-05-05,Laptop,,,Customer requested gift wrap.,Cancelled,True,Kano,FCT,900009
+153,David Adebayo,ada@example.com,2026-03-03,Laptop,-1.0,,Customer requested gift wrap.,Delivered,True,Abuja,FCT,900007
+154,Chinwe Okonkwo,bello.musa@example,2026-01-14,Headphones,0.0,89.5,Customer requested gift wrap.,Delivered,True,Abuja,FCT,900007
+155,Ada Obi,ada@example.com,2026-03-04,Monitor,3.0,49.99,Urgent delivery needed,Pending,False,Abuja,FCT,900001
+156,Efe Okafor,,2026-06-16,Keyboard,1.0,199.99,Please deliver after 5pm.,Delivered,False,Lagos,FCT,900005
+157,David Adebayo,chinwe@example.com,2026-01-25,Laptop,3.0,199.99,,Cancelled,False,Lagos,FCT,900004
+158,David Adebayo,chinwe@example.com,2026-01-04,Keyboard,0.0,199.99,Please deliver after 5pm.,Delivered,True,Enugu,FCT,900004
+159,Chinwe Okonkwo,ada@example.com,2026-05-12,Keyboard,-1.0,49.99,Urgent delivery needed,Delivered,True,Lagos,FCT,900009
+160,David Adebayo,ada@example.com,2026-04-28,Laptop,,,Customer requested gift wrap.,Delivered,True,Kano,FCT,900005
+161,Ada Obi,bello.musa@example,2026-02-24,Monitor,1.0,,Customer requested gift wrap.,Delivered,False,Kano,FCT,900003
+162,David Adebayo,bello.musa@example,2026-06-06,Headphones,,,Customer requested gift wrap.,Cancelled,True,Abuja,FCT,900003
+163,Chinwe Okonkwo,ada@example.com,2026-03-07,Mouse,2.0,199.99,"Called twice, no response. Follow up.",Pending,False,Kano,FCT,900005
+164,David Adebayo,chinwe@example.com,2026-03-02,Laptop,3.0,89.5,Urgent delivery needed,Delivered,False,Lagos,FCT,900006
+165,Bello Musa,chinwe@example.com,2026-04-24,Headphones,3.0,49.99,Urgent delivery needed,Cancelled,False,Ibadan,FCT,900008
+166,Bello Musa,ada@example.com,2026-06-14,Headphones,0.0,49.99,Urgent delivery needed,Delivered,True,Enugu,FCT,900005
+167,Ada Obi,bello.musa@example,2026-06-10,Headphones,0.0,,Urgent delivery needed,Pending,True,Abuja,FCT,900008
+168,Ada Obi,bello.musa@example,2026-05-14,Monitor,1.0,199.99,"Called twice, no response. Follow up.",Cancelled,False,Ibadan,FCT,900006
+169,Efe Okafor,,2026-01-05,Monitor,-1.0,199.99,Please deliver after 5pm.,Cancelled,True,Abuja,FCT,900002
+170,Bello Musa,bello.musa@example,2026-04-19,Keyboard,2.0,,,Delivered,False,Kano,FCT,900006
+171,David Adebayo,,2026-05-12,Laptop,,89.5,Customer requested gift wrap.,Cancelled,True,Abuja,FCT,900002
+172,Ada Obi,chinwe@example.com,2026-05-13,Laptop,3.0,89.5,"Called twice, no response. Follow up.",Delivered,False,Ibadan,FCT,900004
+173,Efe Okafor,chinwe@example.com,2026-02-04,Mouse,1.0,,Customer requested gift wrap.,Cancelled,False,Abuja,FCT,900008
+174,Bello Musa,bello.musa@example,2026-06-03,Keyboard,3.0,89.5,Urgent delivery needed,Cancelled,False,Abuja,FCT,900003
+175,Ada Obi,ada@example.com,2026-02-26,Laptop,-1.0,199.99,"Called twice, no response. Follow up.",Delivered,True,Kano,FCT,900009
+176,Chinwe Okonkwo,,2026-05-03,Laptop,-1.0,,,Cancelled,True,Enugu,FCT,900007
+177,Ada Obi,,2026-03-21,Headphones,-1.0,,"Called twice, no response. Follow up.",Cancelled,True,Kano,FCT,900003
+178,David Adebayo,,2026-02-14,Mouse,1.0,199.99,Urgent delivery needed,Delivered,False,Enugu,FCT,900003
+179,Ada Obi,bello.musa@example,2026-06-08,Keyboard,3.0,199.99,"Called twice, no response. Follow up.",Delivered,False,Kano,FCT,900004
+180,Ada Obi,bello.musa@example,2026-05-18,Keyboard,,49.99,Please deliver after 5pm.,Cancelled,True,Enugu,FCT,900003
+181,David Adebayo,bello.musa@example,2026-05-02,Laptop,1.0,,"Called twice, no response. Follow up.",Pending,False,Kano,FCT,900004
+182,David Adebayo,ada@example.com,2026-04-21,Laptop,,89.5,,Delivered,True,Ibadan,FCT,900004
+183,Chinwe Okonkwo,ada@example.com,2026-06-02,Headphones,-1.0,,Urgent delivery needed,Cancelled,True,Ibadan,FCT,900004
+184,Ada Obi,bello.musa@example,2026-06-11,Mouse,3.0,,"Called twice, no response. Follow up.",Cancelled,False,Abuja,FCT,900006
+185,Ada Obi,bello.musa@example,2026-02-15,Laptop,-1.0,49.99,Customer requested gift wrap.,Delivered,True,Abuja,FCT,900002
+186,Chinwe Okonkwo,chinwe@example.com,2026-02-28,Mouse,3.0,,Please deliver after 5pm.,Pending,False,Kano,FCT,900004
+187,David Adebayo,chinwe@example.com,2026-04-10,Laptop,1.0,,Please deliver after 5pm.,Delivered,False,Enugu,FCT,900008
+188,David Adebayo,bello.musa@example,2026-01-02,Headphones,0.0,,Customer requested gift wrap.,Delivered,True,Kano,FCT,900009
+189,Chinwe Okonkwo,,2026-03-24,Mouse,-1.0,89.5,Customer requested gift wrap.,Cancelled,True,Lagos,FCT,900007
+190,David Adebayo,,2026-03-18,Laptop,-1.0,,Urgent delivery needed,Cancelled,True,Ibadan,FCT,900009
+191,Efe Okafor,ada@example.com,2026-02-04,Laptop,3.0,,Please deliver after 5pm.,Cancelled,False,Kano,FCT,900003
+192,David Adebayo,chinwe@example.com,2026-05-02,Laptop,2.0,89.5,,Delivered,False,Ibadan,FCT,900009
+193,David Adebayo,,2026-03-20,Laptop,-1.0,,"Called twice, no response. Follow up.",Cancelled,True,Kano,FCT,900006
+194,David Adebayo,chinwe@example.com,2026-06-19,Headphones,1.0,89.5,,Cancelled,False,Kano,FCT,900002
+195,Bello Musa,ada@example.com,2026-05-16,Monitor,0.0,,"Called twice, no response. Follow up.",Pending,True,Abuja,FCT,900001
+196,Ada Obi,chinwe@example.com,2026-02-27,Laptop,1.0,,Customer requested gift wrap.,Pending,False,Lagos,FCT,900004
+197,Bello Musa,chinwe@example.com,2026-02-14,Laptop,-1.0,,Customer requested gift wrap.,Cancelled,True,Enugu,FCT,900008
+198,Ada Obi,,2026-05-11,Headphones,0.0,,,Cancelled,True,Kano,FCT,900003
+199,Bello Musa,bello.musa@example,2026-06-25,Monitor,,89.5,Please deliver after 5pm.,Delivered,True,Enugu,FCT,900008
+200,Bello Musa,bello.musa@example,2026-02-10,Monitor,2.0,,Urgent delivery needed,Cancelled,False,Kano,FCT,900008
